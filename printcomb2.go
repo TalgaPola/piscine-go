@@ -24,11 +24,10 @@ func PrintComb2() {
 					if a != '9' || b != '8' || c != '9' || h != '9' {
 						z01.PrintRune(44)
 						z01.PrintRune(32)
-					} else {
-						z01.PrintRune(10)
-					}
+					}			
 				}
 			}
 		}
 	}
+	z01.PrintRune(10)
 }
